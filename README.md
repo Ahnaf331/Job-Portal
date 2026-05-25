@@ -4,25 +4,6 @@ A full-stack job portal built with **ASP.NET Core 8** (Web API) and **Angular 17
 
 ---
 
-## Screenshots
-
-### Home — Hero
-![Home page hero section with search bar and statistics](screenshots/01-home-hero.png)
-
-### Home — Latest Opportunities
-![Home page showing latest job cards with Browse by Category section](screenshots/02-home-jobs.png)
-
-### Browse Jobs
-![Browse jobs page with keyword, category, location and type filters](screenshots/03-browse-jobs.png)
-
-### Employer Dashboard — My Jobs
-![Employer dashboard with job postings table, My Jobs and Shortlisted tabs](screenshots/04-employer-dashboard.png)
-
-### Employer Dashboard — Applicants Panel
-![Applicants panel expanded below a job row showing applicant profile with status selector and Profile button](screenshots/05-applicants-panel.png)
-
----
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -191,3 +172,22 @@ If you change an entity, create and apply a migration:
 dotnet ef migrations add YourMigrationName --project HireFlow.Infrastructure --startup-project HireFlow.API
 dotnet ef database update --project HireFlow.Infrastructure --startup-project HireFlow.API
 ```
+
+---
+
+## Screenshots
+
+### Home — Hero
+![Home page hero section with search bar and statistics](screenshots/01-home-hero.png)
+
+### Home — Latest Opportunities
+![Home page showing latest job cards with Browse by Category section](screenshots/02-home-jobs.png)
+
+### Browse Jobs
+![Browse jobs page with keyword, category, location and type filters](screenshots/03-browse-jobs.png)
+
+### Employer Dashboard — My Jobs
+![Employer dashboard with job postings table, My Jobs and Shortlisted tabs](screenshots/04-employer-dashboard.png)
+
+### Employer Dashboard — Applicants Panel
+![Applicants panel expanded below a job row showing applicant profile with status selector and Profile button](screenshots/05-applicants-panel.png)
