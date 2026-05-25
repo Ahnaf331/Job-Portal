@@ -1,0 +1,36 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+
+# EF Core migrations snapshot (keep migrations, ignore artifacts)
+# Uncomment below if you want to ignore the snapshot
+# **/Migrations/
+
+# Sensitive config — do not commit real secrets
+# appsettings.Production.json
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+hireflow-ui/.angular/
+
+# npm
+npm-debug.log*
+package-lock.json
+
+# Rider / VS Code / VS
+.idea/
+.vscode/
+*.swp
+
+# Uploaded resumes (user files — not committed)
+HireFlow.API/wwwroot/resumes/
+
+# OS
+.DS_Store
+Thumbs.db
